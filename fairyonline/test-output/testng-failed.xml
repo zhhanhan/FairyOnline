@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <listeners>
+    <listener class-name="com.BeforePage.WebtestListener"/>
+  </listeners>
+  <test name="Back(failed)">
+    <classes>
+      <class name="com.PageTest.forword.PromotionTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.forword.PromotionTest -->
+      <class name="com.PageTest.forword.RecommendTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.forword.RecommendTest -->
+      <class name="com.PageTest.back.LinkChangeTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.LinkChangeTest -->
+      <class name="com.PageTest.back.OrderDetailTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.OrderDetailTest -->
+      <class name="com.PageTest.back.MemberReviseTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.MemberReviseTest -->
+      <class name="com.PageTest.back.ShopImagechange">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.ShopImagechange -->
+      <class name="com.PageTest.back.EmployeeReviseTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.EmployeeReviseTest -->
+      <class name="com.PageTest.forword.PriceTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.forword.PriceTest -->
+      <class name="com.PageTest.back.EmployeeCheckTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.EmployeeCheckTest -->
+      <class name="com.PageTest.forword.MoreColorTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.forword.MoreColorTest -->
+      <class name="com.PageTest.back.LinkClickTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.LinkClickTest -->
+      <class name="com.PageTest.back.ShopImage">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.ShopImage -->
+      <class name="com.PageTest.back.EmployeeDeleteTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.EmployeeDeleteTest -->
+      <class name="com.PageTest.back.BackLoginFailTest">
+        <methods>
+          <include name="loginFail"/>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.BackLoginFailTest -->
+      <class name="com.PageTest.forword.SizeTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.forword.SizeTest -->
+      <class name="com.PageTest.forword.BrandClickTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.forword.BrandClickTest -->
+      <class name="com.PageTest.forword.NpttTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.forword.NpttTest -->
+      <class name="com.PageTest.back.EmployeeEditTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.EmployeeEditTest -->
+      <class name="com.PageTest.back.NewsNoticesTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.NewsNoticesTest -->
+      <class name="com.PageTest.forword.SportRushTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.forword.SportRushTest -->
+      <class name="com.PageTest.back.ShopImagetitle">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.ShopImagetitle -->
+      <class name="com.PageTest.forword.ForLoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.forword.ForLoginPageTest -->
+      <class name="com.PageTest.forword.ColorTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.forword.ColorTest -->
+      <class name="com.PageTest.back.NewsNewsTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.NewsNewsTest -->
+      <class name="com.PageTest.back.BackLoginSuccessTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.BackLoginSuccessTest -->
+    </classes>
+  </test> <!-- Back(failed) -->
+  <test name="Forword(failed)">
+    <classes>
+      <class name="com.PageTest.forword.PromotionTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.forword.PromotionTest -->
+      <class name="com.PageTest.forword.RecommendTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.forword.RecommendTest -->
+      <class name="com.PageTest.back.LinkChangeTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.LinkChangeTest -->
+      <class name="com.PageTest.back.OrderDetailTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.OrderDetailTest -->
+      <class name="com.PageTest.back.MemberReviseTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.MemberReviseTest -->
+      <class name="com.PageTest.back.ShopImagechange">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.ShopImagechange -->
+      <class name="com.PageTest.back.EmployeeReviseTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.EmployeeReviseTest -->
+      <class name="com.PageTest.forword.PriceTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.forword.PriceTest -->
+      <class name="com.PageTest.back.EmployeeCheckTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.EmployeeCheckTest -->
+      <class name="com.PageTest.forword.MoreColorTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.forword.MoreColorTest -->
+      <class name="com.PageTest.back.LinkClickTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.LinkClickTest -->
+      <class name="com.PageTest.back.ShopImage">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.ShopImage -->
+      <class name="com.PageTest.back.EmployeeDeleteTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.EmployeeDeleteTest -->
+      <class name="com.PageTest.back.BackLoginFailTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.BackLoginFailTest -->
+      <class name="com.PageTest.forword.SizeTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.forword.SizeTest -->
+      <class name="com.PageTest.forword.BrandClickTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.forword.BrandClickTest -->
+      <class name="com.PageTest.forword.NpttTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.forword.NpttTest -->
+      <class name="com.PageTest.back.EmployeeEditTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.EmployeeEditTest -->
+      <class name="com.PageTest.back.NewsNoticesTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.NewsNoticesTest -->
+      <class name="com.PageTest.forword.SportRushTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.forword.SportRushTest -->
+      <class name="com.PageTest.back.ShopImagetitle">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.ShopImagetitle -->
+      <class name="com.PageTest.forword.ForLoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="loginFail2"/>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.forword.ForLoginPageTest -->
+      <class name="com.PageTest.forword.ColorTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.forword.ColorTest -->
+      <class name="com.PageTest.back.NewsNewsTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.NewsNewsTest -->
+      <class name="com.PageTest.back.BackLoginSuccessTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.PageTest.back.BackLoginSuccessTest -->
+    </classes>
+  </test> <!-- Forword(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

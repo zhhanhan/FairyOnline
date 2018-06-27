@@ -1,0 +1,284 @@
+<html>
+<head>
+<title>TestNG:  Back</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Back</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>41/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 14 20:03:29 CST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>957 seconds (957038 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.PageTest.back.EmployeeCheckTest.EDelete()'><b>EDelete</b><br>Test class: com.PageTest.back.EmployeeCheckTest</td>
+<td></td>
+<td>12</td>
+<td>com.PageTest.back.EmployeeCheckTest@591f989e</td></tr>
+<tr>
+<td title='com.PageTest.back.EmployeeDeleteTest.EDelete()'><b>EDelete</b><br>Test class: com.PageTest.back.EmployeeDeleteTest</td>
+<td></td>
+<td>23</td>
+<td>com.PageTest.back.EmployeeDeleteTest@66048bfd</td></tr>
+<tr>
+<td title='com.PageTest.back.EmployeeReviseTest.Echange()'><b>Echange</b><br>Test class: com.PageTest.back.EmployeeReviseTest</td>
+<td></td>
+<td>24</td>
+<td>com.PageTest.back.EmployeeReviseTest@445b84c0</td></tr>
+<tr>
+<td title='com.PageTest.back.EmployeeEditTest.Edit()'><b>Edit</b><br>Test class: com.PageTest.back.EmployeeEditTest</td>
+<td></td>
+<td>6</td>
+<td>com.PageTest.back.EmployeeEditTest@61443d8f</td></tr>
+<tr>
+<td title='com.PageTest.back.ShopImage.Image()'><b>Image</b><br>Test class: com.PageTest.back.ShopImage</td>
+<td></td>
+<td>25</td>
+<td>com.PageTest.back.ShopImage@7cdbc5d3</td></tr>
+<tr>
+<td title='com.PageTest.back.ShopImagetitle.Image()'><b>Image</b><br>Test class: com.PageTest.back.ShopImagetitle</td>
+<td></td>
+<td>25</td>
+<td>com.PageTest.back.ShopImagetitle@3834d63f</td></tr>
+<tr>
+<td title='com.PageTest.back.ShopImagechange.Image3()'><b>Image3</b><br>Test class: com.PageTest.back.ShopImagechange</td>
+<td></td>
+<td>25</td>
+<td>com.PageTest.back.ShopImagechange@17d99928</td></tr>
+<tr>
+<td title='com.PageTest.back.LinkChangeTest.Linkchange()'><b>Linkchange</b><br>Test class: com.PageTest.back.LinkChangeTest</td>
+<td></td>
+<td>24</td>
+<td>com.PageTest.back.LinkChangeTest@61a52fbd</td></tr>
+<tr>
+<td title='com.PageTest.back.LinkClickTest.Linkclick()'><b>Linkclick</b><br>Test class: com.PageTest.back.LinkClickTest</td>
+<td></td>
+<td>7</td>
+<td>com.PageTest.back.LinkClickTest@233c0b17</td></tr>
+<tr>
+<td title='com.PageTest.back.EmployeeCheckTest.Login()'><b>Login</b><br>Test class: com.PageTest.back.EmployeeCheckTest</td>
+<td></td>
+<td>24</td>
+<td>com.PageTest.back.EmployeeCheckTest@591f989e</td></tr>
+<tr>
+<td title='com.PageTest.back.EmployeeDeleteTest.Login()'><b>Login</b><br>Test class: com.PageTest.back.EmployeeDeleteTest</td>
+<td></td>
+<td>23</td>
+<td>com.PageTest.back.EmployeeDeleteTest@66048bfd</td></tr>
+<tr>
+<td title='com.PageTest.back.EmployeeEditTest.Login()'><b>Login</b><br>Test class: com.PageTest.back.EmployeeEditTest</td>
+<td></td>
+<td>23</td>
+<td>com.PageTest.back.EmployeeEditTest@61443d8f</td></tr>
+<tr>
+<td title='com.PageTest.back.EmployeeReviseTest.Login()'><b>Login</b><br>Test class: com.PageTest.back.EmployeeReviseTest</td>
+<td></td>
+<td>24</td>
+<td>com.PageTest.back.EmployeeReviseTest@445b84c0</td></tr>
+<tr>
+<td title='com.PageTest.back.LinkChangeTest.Login()'><b>Login</b><br>Test class: com.PageTest.back.LinkChangeTest</td>
+<td></td>
+<td>24</td>
+<td>com.PageTest.back.LinkChangeTest@61a52fbd</td></tr>
+<tr>
+<td title='com.PageTest.back.LinkClickTest.Login()'><b>Login</b><br>Test class: com.PageTest.back.LinkClickTest</td>
+<td></td>
+<td>24</td>
+<td>com.PageTest.back.LinkClickTest@233c0b17</td></tr>
+<tr>
+<td title='com.PageTest.back.MemberReviseTest.Login()'><b>Login</b><br>Test class: com.PageTest.back.MemberReviseTest</td>
+<td></td>
+<td>24</td>
+<td>com.PageTest.back.MemberReviseTest@63d4e2ba</td></tr>
+<tr>
+<td title='com.PageTest.back.NewsNewsTest.Login()'><b>Login</b><br>Test class: com.PageTest.back.NewsNewsTest</td>
+<td></td>
+<td>24</td>
+<td>com.PageTest.back.NewsNewsTest@7bb11784</td></tr>
+<tr>
+<td title='com.PageTest.back.NewsNoticesTest.Login()'><b>Login</b><br>Test class: com.PageTest.back.NewsNoticesTest</td>
+<td></td>
+<td>24</td>
+<td>com.PageTest.back.NewsNoticesTest@7006c658</td></tr>
+<tr>
+<td title='com.PageTest.back.OrderDetailTest.Login()'><b>Login</b><br>Test class: com.PageTest.back.OrderDetailTest</td>
+<td></td>
+<td>24</td>
+<td>com.PageTest.back.OrderDetailTest@47fd17e3</td></tr>
+<tr>
+<td title='com.PageTest.back.ShopImage.Login()'><b>Login</b><br>Test class: com.PageTest.back.ShopImage</td>
+<td></td>
+<td>24</td>
+<td>com.PageTest.back.ShopImage@7cdbc5d3</td></tr>
+<tr>
+<td title='com.PageTest.back.ShopImagechange.Login()'><b>Login</b><br>Test class: com.PageTest.back.ShopImagechange</td>
+<td></td>
+<td>24</td>
+<td>com.PageTest.back.ShopImagechange@17d99928</td></tr>
+<tr>
+<td title='com.PageTest.back.ShopImagetitle.Login()'><b>Login</b><br>Test class: com.PageTest.back.ShopImagetitle</td>
+<td></td>
+<td>24</td>
+<td>com.PageTest.back.ShopImagetitle@3834d63f</td></tr>
+<tr>
+<td title='com.PageTest.back.NewsNewsTest.News()'><b>News</b><br>Test class: com.PageTest.back.NewsNewsTest</td>
+<td></td>
+<td>20</td>
+<td>com.PageTest.back.NewsNewsTest@7bb11784</td></tr>
+<tr>
+<td title='com.PageTest.back.NewsNewsTest.News1()'><b>News1</b><br>Test class: com.PageTest.back.NewsNewsTest</td>
+<td></td>
+<td>7</td>
+<td>com.PageTest.back.NewsNewsTest@7bb11784</td></tr>
+<tr>
+<td title='com.PageTest.back.NewsNewsTest.News2()'><b>News2</b><br>Test class: com.PageTest.back.NewsNewsTest</td>
+<td></td>
+<td>7</td>
+<td>com.PageTest.back.NewsNewsTest@7bb11784</td></tr>
+<tr>
+<td title='com.PageTest.back.NewsNewsTest.News3()'><b>News3</b><br>Test class: com.PageTest.back.NewsNewsTest</td>
+<td></td>
+<td>6</td>
+<td>com.PageTest.back.NewsNewsTest@7bb11784</td></tr>
+<tr>
+<td title='com.PageTest.back.NewsNewsTest.News4()'><b>News4</b><br>Test class: com.PageTest.back.NewsNewsTest</td>
+<td></td>
+<td>6</td>
+<td>com.PageTest.back.NewsNewsTest@7bb11784</td></tr>
+<tr>
+<td title='com.PageTest.back.NewsNewsTest.News5()'><b>News5</b><br>Test class: com.PageTest.back.NewsNewsTest<br>Parameters: 11111, 22222</td>
+<td></td>
+<td>6</td>
+<td>com.PageTest.back.NewsNewsTest@7bb11784</td></tr>
+<tr>
+<td title='com.PageTest.back.NewsNewsTest.News5()'><b>News5</b><br>Test class: com.PageTest.back.NewsNewsTest<br>Parameters: 33333, 44444</td>
+<td></td>
+<td>6</td>
+<td>com.PageTest.back.NewsNewsTest@7bb11784</td></tr>
+<tr>
+<td title='com.PageTest.back.NewsNewsTest.News6()'><b>News6</b><br>Test class: com.PageTest.back.NewsNewsTest</td>
+<td></td>
+<td>6</td>
+<td>com.PageTest.back.NewsNewsTest@7bb11784</td></tr>
+<tr>
+<td title='com.PageTest.back.NewsNoticesTest.Notice()'><b>Notice</b><br>Test class: com.PageTest.back.NewsNoticesTest</td>
+<td></td>
+<td>16</td>
+<td>com.PageTest.back.NewsNoticesTest@7006c658</td></tr>
+<tr>
+<td title='com.PageTest.back.NewsNoticesTest.Notice1()'><b>Notice1</b><br>Test class: com.PageTest.back.NewsNoticesTest</td>
+<td></td>
+<td>6</td>
+<td>com.PageTest.back.NewsNoticesTest@7006c658</td></tr>
+<tr>
+<td title='com.PageTest.back.NewsNoticesTest.Notice2()'><b>Notice2</b><br>Test class: com.PageTest.back.NewsNoticesTest</td>
+<td></td>
+<td>6</td>
+<td>com.PageTest.back.NewsNoticesTest@7006c658</td></tr>
+<tr>
+<td title='com.PageTest.back.NewsNoticesTest.Notice3()'><b>Notice3</b><br>Test class: com.PageTest.back.NewsNoticesTest</td>
+<td></td>
+<td>7</td>
+<td>com.PageTest.back.NewsNoticesTest@7006c658</td></tr>
+<tr>
+<td title='com.PageTest.back.NewsNoticesTest.Notice4()'><b>Notice4</b><br>Test class: com.PageTest.back.NewsNoticesTest<br>Parameters: §³???, ?????</td>
+<td></td>
+<td>6</td>
+<td>com.PageTest.back.NewsNoticesTest@7006c658</td></tr>
+<tr>
+<td title='com.PageTest.back.NewsNoticesTest.Notice4()'><b>Notice4</b><br>Test class: com.PageTest.back.NewsNoticesTest<br>Parameters: ???????, §³????</td>
+<td></td>
+<td>7</td>
+<td>com.PageTest.back.NewsNoticesTest@7006c658</td></tr>
+<tr>
+<td title='com.PageTest.back.NewsNoticesTest.Notice5()'><b>Notice5</b><br>Test class: com.PageTest.back.NewsNoticesTest</td>
+<td></td>
+<td>7</td>
+<td>com.PageTest.back.NewsNoticesTest@7006c658</td></tr>
+<tr>
+<td title='com.PageTest.back.MemberReviseTest.Revise()'><b>Revise</b><br>Test class: com.PageTest.back.MemberReviseTest</td>
+<td></td>
+<td>28</td>
+<td>com.PageTest.back.MemberReviseTest@63d4e2ba</td></tr>
+<tr>
+<td title='com.PageTest.back.OrderDetailTest.TDetail()'><b>TDetail</b><br>Test class: com.PageTest.back.OrderDetailTest</td>
+<td></td>
+<td>20</td>
+<td>com.PageTest.back.OrderDetailTest@47fd17e3</td></tr>
+<tr>
+<td title='com.PageTest.back.BackLoginFailTest.loginFail()'><b>loginFail</b><br>Test class: com.PageTest.back.BackLoginFailTest</td>
+<td></td>
+<td>18</td>
+<td>com.PageTest.back.BackLoginFailTest@4b6995df</td></tr>
+<tr>
+<td title='com.PageTest.back.BackLoginSuccessTest.loginSuccess()'><b>loginSuccess</b><br>Test class: com.PageTest.back.BackLoginSuccessTest</td>
+<td></td>
+<td>21</td>
+<td>com.PageTest.back.BackLoginSuccessTest@2fc14f68</td></tr>
+</table><p>
+</body>
+</html>
